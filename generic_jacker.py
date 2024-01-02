@@ -6,10 +6,6 @@ from FeatPageScraper import FeatPageScraper
 from LinkHandler import LinkHandler
 
 
-from ItemSaver import ItemSaver
-
-# delete failed runs
-
 def check_cli_args(config_file_names) -> list:
     """
     Check command line arguments for configuration file names.
