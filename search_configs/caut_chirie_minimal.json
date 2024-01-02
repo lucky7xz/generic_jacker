@@ -1,0 +1,68 @@
+
+
+
+{
+    "tasks": "",
+    "open_links" : "",
+    "open_links_delay" : 0,
+    
+    "function_to_use" : "",
+    "background_scrape" :"",
+
+
+    
+    "base_link": "<Insert Base Website Link here>",
+    "link_mods": [
+        "apartamente-1-camera/timis/timisoara/",
+        "apartamente-2-camere/timis/timisoara/"
+    ],
+
+    "spec_mods_bucket":{
+
+    "&commercial=":{
+        "apply_to_all": ["false"]
+    
+    }},
+    
+
+
+
+    "spec_mods": {
+
+        "?area=": {
+            "apply_to_all": ["tipografilor", "torontalului", "lipovei", "gheorghe-lazar", "medicinei", "dacia", "ultracentral", "circumvalatiunii", "aradului", "centru", "cetate", "take-ionescu", "fabric"]
+
+        },
+        
+         "&commercial=":{
+        "apply_to_all": ["false"]
+    
+        },
+        
+        "&livingspace=":{
+            "apply_to_all": [],
+            "apartamente-1-camera/timis/timisoara/" : ["35-"],
+            "apartamente-2-camere/timis/timisoara/" : ["35-60"]
+            
+        },
+
+        "&minprice=":{
+            "apply_to_all": ["200"]
+
+        },
+        "&maxprice=":{
+            "apply_to_all": ["400"]
+
+        }
+
+    }
+
+
+}
+
+
+    
+
+
+
+
