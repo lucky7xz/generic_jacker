@@ -117,26 +117,4 @@ def main():
         
 if __name__ == "__main__":
     main()
-
-
-    """
-        link_handler = LinkHandler(config_source)
-
-        #pprint(link_dict)
-        #pprint(feat_links)
-
-        item_saver = ItemSaver(config_source)
-        print("\n Number of in json files: ",len(item_saver.get_item_links_in_json_files()))
-        print(" Number of items already saved : ",len(item_saver.get_item_links_already_saved()))
-        print(" --> Items left: ")
-        items_to_be_saved = item_saver.get_item_links_to_be_saved()
-        pprint(items_to_be_saved[:10])
-        print("...")
-
-        item_saver.save_item_html_files()
-        
-        if "caut_chirie_minimal" in config_source:
-            
-            link_handler.open_last_link_diffz()
-            """
     
